@@ -1,0 +1,98 @@
+<<<<<<< HEAD
+
+
+##    AI Interview Studio
+
+**AI Interview Studio** is a voice-enabled, AI-powered interview preparation platform built with Streamlit. It generates personalized interview questions based on your resume, job role, and desired difficulty level, and evaluates your responses in real time. Whether you're preparing for a technical, behavioral, or HR interview — this app helps you practice smarter.
+
+
+
+## 🔗 Live Demo
+
+[Click here to try AI Interview Studio](https://your-streamlit-app-url.streamlit.app)
+
+---
+
+### 🚀 Key Features
+
+- **   Personalized Question Generation**  
+  Generate interview questions tailored to your job role, difficulty level, and selected categories.
+
+- **📄 Resume & Job Description Analysis**  
+  Upload your resume and paste a job description to extract relevant skills and customize your interview prep.
+
+- **🎙️ Voice Input Support**  
+  Answer questions using your microphone with built-in speech-to-text functionality.
+
+- **✅ Real-Time Answer Evaluation**  
+  Receive instant feedback and scoring for each answer using AI-powered evaluation.
+
+- **📊 Visual Insights**  
+  View charts showing question breakdown and extracted skills from your resume and job description.
+
+- **📥 Export Questions**  
+  Download your generated questions as TXT or CSV for offline practice.
+
+---
+
+###  Technologies Used
+
+- [Streamlit](https://streamlit.io/) – UI framework  
+- [Python](https://www.python.org/) – Core logic  
+- [Plotly](https://plotly.com/python/) – Interactive charts  
+- HTML, CSS, JavaScript – Custom styling and mic integration
+
+---
+
+###  Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/ai-interview-studio.git
+cd ai-interview-studio
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the app
+streamlit run app.py
+```
+
+---
+
+### 📁 Project Structure
+
+```
+ai-interview-studio/
+├── app.py
+├── question_generator.py
+├── resume_parser.py
+├── skills_extractor.py
+├── answer_evaluator.py
+├── static/
+│   ├── style.css
+│   └── mic.js
+├── requirements.txt
+└── README.md
+
+---
+
+###  Contributing
+
+We welcome contributions! If you'd like to improve the app, fix bugs, or add new features:
+
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-name`)  
+3. Commit your changes  
+4. Push to your branch  
+5. Open a pull request
+
+---
+
+### 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+### 💬 Contact
